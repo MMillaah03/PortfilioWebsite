@@ -1,0 +1,6 @@
+bash
+
+mkdir -p /home/claude/portfolio/{css,pages,assets} && echo "Structure created"
+Output
+
+Structure created
