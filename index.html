@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of [Your Name] — Computer Science student, developer, and explorer." />
+  <title>Home | [Your Name] Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">[Your<span>Name</span>]</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="pages/bio.html">Bio</a></li>
+        <li><a href="pages/skills.html">Skills</a></li>
+        <li><a href="pages/experiences.html">Experiences</a></li>
+        <li><a href="pages/contact.html" class="btn btn-primary" style="padding:8px 20px; font-size:0.88rem;">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="nav-drawer" id="navDrawer" role="menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="pages/bio.html">Bio</a>
+    <a href="pages/skills.html">Skills</a>
+    <a href="pages/experiences.html">Experiences</a>
+    <a href="pages/contact.html">Contact</a>
+  </div>
+
+  <main>
+    <!-- ── Hero ── -->
+    <section class="hero nav-offset" aria-label="Introduction">
+      <div class="hero-bg-shapes" aria-hidden="true">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-greeting">👋 Hello, I'm</p>
+          <h1 class="hero-name">[Your Full Name]</h1>
+          <p class="hero-tagline">Computer Science Student &amp; Aspiring Developer</p>
+          <p class="hero-desc">
+            I build clean, thoughtful software and love exploring the intersection of
+            technology and human experience. Welcome to my corner of the web.
+          </p>
+          <div class="hero-cta">
+            <a href="pages/bio.html" class="btn btn-primary">Learn About Me</a>
+            <a href="pages/contact.html" class="btn btn-outline">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-avatar">
+            <div class="avatar-placeholder">
+              <!-- Replace with: <img src="../assets/your-photo.jpg" alt="[Your Name]" /> -->
+              <span class="avatar-initials">[YN]</span>
+            </div>
+            <div class="avatar-ring"></div>
+            <div class="avatar-dot dot-1"></div>
+            <div class="avatar-dot dot-2"></div>
+            <div class="avatar-dot dot-3"></div>
+          </div>
+        </div>
+      </div>
+      <a href="#about-preview" class="scroll-hint" aria-label="Scroll down">
+        <span>Scroll</span>
+        <svg width="16" height="24" viewBox="0 0 16 24" fill="none">
+          <rect x="1" y="1" width="14" height="22" rx="7" stroke="#000060" stroke-width="1.5"/>
+          <circle class="scroll-dot" cx="8" cy="7" r="2.5" fill="#000060"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- ── Quick About Preview ── -->
+    <section class="section" id="about-preview" aria-label="Quick intro">
+      <div class="container">
+        <div class="preview-grid">
+
+          <a href="pages/bio.html" class="preview-card card">
+            <div class="preview-icon">👤</div>
+            <h3>About Me</h3>
+            <p>Get to know my background, story, and what drives me as a developer and person.</p>
+            <span class="preview-link">Read Bio →</span>
+          </a>
+
+          <a href="pages/skills.html" class="preview-card card">
+            <div class="preview-icon">⚡</div>
+            <h3>Skills &amp; Academics</h3>
+            <p>My technical toolkit, academic achievements, certifications, and areas of expertise.</p>
+            <span class="preview-link">View Skills →</span>
+          </a>
+
+          <a href="pages/experiences.html" class="preview-card card">
+            <div class="preview-icon">🌍</div>
+            <h3>Experiences</h3>
+            <p>Travel, cultural adventures, and real-world experiences that shaped who I am.</p>
+            <span class="preview-link">Explore →</span>
+          </a>
+
+          <a href="pages/contact.html" class="preview-card card">
+            <div class="preview-icon">✉️</div>
+            <h3>Contact</h3>
+            <p>Reach out directly, connect on Instagram, or drop a message to start a conversation.</p>
+            <span class="preview-link">Say Hello →</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Highlight Strip ── -->
+    <section class="section section-alt" aria-label="Quick stats">
+      <div class="container stats-row">
+        <div class="stat-item">
+          <span class="stat-num">CS</span>
+          <span class="stat-label">Computer Science Focus</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Projects Completed</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Countries Visited</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num">∞</span>
+          <span class="stat-label">Curiosity &amp; Drive</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA Banner ── -->
+    <section class="section cta-section" aria-label="Call to action">
+      <div class="container cta-inner">
+        <div>
+          <h2>Let's Connect</h2>
+          <p>Whether you're a professor, peer, or potential employer — I'd love to hear from you.</p>
+        </div>
+        <a href="pages/contact.html" class="btn btn-primary">Get In Touch</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="foot-logo">[Your<span style="color:#4a6fa5">Name</span>]</div>
+    <nav class="foot-links" aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="pages/bio.html">Bio</a>
+      <a href="pages/skills.html">Skills</a>
+      <a href="pages/experiences.html">Experiences</a>
+      <a href="pages/contact.html">Contact</a>
+    </nav>
+    <p>© <span id="year"></span> [Your Name] · Built with HTML &amp; CSS · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const drawer = document.getElementById('navDrawer');
+    toggle.addEventListener('click', () => {
+      const open = drawer.classList.toggle('open');
+      toggle.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', open);
+    });
+
+    // Close drawer on link click
+    drawer.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        drawer.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', false);
+      });
+    });
+  </script>
+</body>
+</html>
