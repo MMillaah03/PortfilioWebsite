@@ -1,7 +1,6 @@
 # Portfolio Website
 
-Welcome to my personal portfolio website repository.
-This project showcases my skills, projects, and experience as a developer through a personal portfolio website.
+Welcome to my personal portfolio website repository. <br> This project showcases my skills, projects, and experience as a developer through a personal portfolio website.
 
 ## 🌐 Overview
 
