@@ -11,7 +11,7 @@
 <body>
 
   <!-- ── Navigation ── -->
-  <nav class="nav" role="navigation" aria-label="Main navigation">
+  <nav class="nav" role="navigation" Lato-label="Main navigation">
     <div class="nav-inner">
       <a href="index.html" class="nav-logo">Mike<span> Miller</span></a>
       <ul class="nav-links">
@@ -21,7 +21,7 @@
         <li><a href="pages/experiences.html">Experiences</a></li>
         <li><a href="pages/contact.html" class="btn btn-primary" style="padding:8px 20px; font-size:0.88rem;">Contact</a></li>
       </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <button class="nav-toggle" id="navToggle" Lato-label="Toggle menu" Lato-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -38,8 +38,8 @@
 
   <main>
     <!-- ── Hero ── -->
-    <section class="hero nav-offset" aria-label="Introduction">
-      <div class="hero-bg-shapes" aria-hidden="true">
+    <section class="hero nav-offset" Lato-label="Introduction">
+      <div class="hero-bg-shapes" Lato-hidden="true">
         <div class="shape shape-1"></div>
         <div class="shape shape-2"></div>
         <div class="shape shape-3"></div>
@@ -59,7 +59,7 @@
             <a href="pages/contact.html" class="btn btn-outline">Get In Touch</a>
           </div>
         </div>
-        <div class="hero-visual" aria-hidden="true">
+        <div class="hero-visual" Lato-hidden="true">
           <div class="hero-avatar">
             <div class="avatar-placeholder">
               <img src="assets/Picture1.jpg" alt="Mike Miller" />
@@ -71,7 +71,7 @@
           </div>
         </div>
       </div>
-      <a href="#about-preview" class="scroll-hint" aria-label="Scroll down">
+      <a href="#about-preview" class="scroll-hint" Lato-label="Scroll down">
         <span>Scroll</span>
         <svg width="16" height="24" viewBox="0 0 16 24" fill="none">
           <rect x="1" y="1" width="14" height="22" rx="7" stroke="#000060" stroke-width="1.5"/>
@@ -81,7 +81,7 @@
     </section>
 
     <!-- ── Quick About Preview ── -->
-    <section class="section" id="about-preview" aria-label="Quick intro">
+    <section class="section" id="about-preview" Lato-label="Quick intro">
       <div class="container">
         <div class="preview-grid">
 
@@ -117,23 +117,23 @@
     </section>
 
     <!-- ── Highlight Strip ── -->
-    <section class="section section-alt" aria-label="Quick stats">
+    <section class="section section-alt" Lato-label="Quick stats">
       <div class="container stats-row">
         <div class="stat-item">
           <span class="stat-num" style="font-size:1.3rem;">AI &amp; Digital Forensics</span>
           <span class="stat-label">Focused on growing AI Tech</span>
         </div>
-        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-divider" Lato-hidden="true"></div>
         <div class="stat-item">
           <span class="stat-num">5+</span>
           <span class="stat-label">Projects Completed</span>
         </div>
-        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-divider" Lato-hidden="true"></div>
         <div class="stat-item">
           <span class="stat-num">45+</span>
           <span class="stat-label">Countries Visited</span>
         </div>
-        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-divider" Lato-hidden="true"></div>
         <div class="stat-item">
           <span class="stat-num">∞</span>
           <span class="stat-label">Curiosity &amp; Drive</span>
@@ -142,7 +142,7 @@
     </section>
 
     <!-- ── CTA Banner ── -->
-    <section class="section cta-section" aria-label="Call to action">
+    <section class="section cta-section" Lato-label="Call to action">
       <div class="container cta-inner">
         <div>
           <h2>Let's Connect</h2>
@@ -157,7 +157,7 @@
   <!-- ── Footer ── -->
   <footer>
     <div class="foot-logo">Mike<span style="color:#4a6fa5"> Miller</span></div>
-    <nav class="foot-links" aria-label="Footer navigation">
+    <nav class="foot-links" Lato-label="Footer navigation">
       <a href="index.html">Home</a>
       <a href="pages/bio.html">Bio</a>
       <a href="pages/skills.html">Skills</a>
@@ -177,7 +177,7 @@
     toggle.addEventListener('click', () => {
       const open = drawer.classList.toggle('open');
       toggle.classList.toggle('open', open);
-      toggle.setAttribute('aria-expanded', open);
+      toggle.setAttribute('Lato-expanded', open);
     });
 
     // Close drawer on link click
@@ -185,7 +185,7 @@
       a.addEventListener('click', () => {
         drawer.classList.remove('open');
         toggle.classList.remove('open');
-        toggle.setAttribute('aria-expanded', false);
+        toggle.setAttribute('Lato-expanded', false);
       });
     });
   </script>
